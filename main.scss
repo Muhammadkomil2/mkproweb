@@ -76,7 +76,7 @@ body {
   align-items: center;
   color: #fff;
   height: 100vh;
-  justify-content: space-evenly;
+  justify-content: space-around;
   display: flex;
 
   span {
@@ -111,7 +111,7 @@ body {
 
 .about {
   align-items: center;
-  background: url(../1.png) no-repeat right;
+  background: url(./1.png) no-repeat right;
   background-size: contain;
   background-size: 60%;
 
@@ -141,7 +141,7 @@ body {
 
 .skills {
   align-items: center;
-  background: url(../2.png) no-repeat center;
+  background: url(./2.png) no-repeat center;
   background-size: cover;
   height: 90vh;
   justify-content: center;
