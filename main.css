@@ -1,4 +1,3 @@
-@import url("http://fonts.cdnfonts.com/css/debug-free-trial");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap");
 * {
   margin: 0;
@@ -44,7 +43,13 @@ body {
           align-items: center;
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
-  background: #6666664b;
+  background: rgba(39, 39, 39, 0.925);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.219);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.219);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .navbar .bar {
@@ -52,9 +57,9 @@ body {
 }
 
 .navbar .logo {
-  font-family: "DEBUG FREE TRIAL";
+  font-family: "Poppins", sans-serif;
   color: #fff;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .navbar .linkbar {
@@ -127,7 +132,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../1.png) no-repeat right;
+  background: url(../img/1.png) no-repeat right;
   background-size: contain;
   background-size: 60%;
 }
@@ -163,7 +168,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url(../2.png) no-repeat center;
+  background: url(../img/2.png) no-repeat center;
   background-size: cover;
   height: 90vh;
   -webkit-box-pack: center;
